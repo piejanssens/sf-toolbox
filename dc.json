@@ -1,0 +1,220 @@
+[
+  {
+    "datacenter": "DC22",
+    "environment": "Production",
+    "old_uri": "hcm22.sapsf.com",
+    "csd_uri": "hcm-ae10.hr.cloud.sap"
+  },
+  {
+    "datacenter": "DC22",
+    "environment": "Preview",
+    "old_uri": "hcm22preview.sapsf.com",
+    "csd_uri": "hcm-ae10-preview.hr.cloud.sap"
+  },
+  {
+    "datacenter": "DC23",
+    "environment": "Production",
+    "old_uri": "hcm23.sapsf.com",
+    "csd_uri": "hcm-sa10.hr.cloud.sap"
+  },
+  {
+    "datacenter": "DC23",
+    "environment": "Preview",
+    "old_uri": "hcm23preview.sapsf.com",
+    "csd_uri": "hcm-sa10-preview.hr.cloud.sap"
+  },
+  {
+    "datacenter": "DC30",
+    "environment": "Production",
+    "old_uri": "performancemanager15.sapsf.cn",
+    "csd_uri": "hcm-cn10.sapcloud.cn"
+  },
+  {
+    "datacenter": "DC30",
+    "environment": "Preview",
+    "old_uri": "hcm15preview.sapsf.cn",
+    "csd_uri": "hcm-cn10-preview.sapcloud.cn"
+  },
+  {
+    "datacenter": "DC33",
+    "environment": "Production",
+    "old_uri": "performancemanager5.successfactors.eu",
+    "csd_uri": "hcm-eu20.hr.cloud.sap"
+  },
+  {
+    "datacenter": "DC33",
+    "environment": "Preview",
+    "old_uri": "hcm12preview.sapsf.eu",
+    "csd_uri": "hcm-eu20-preview.hr.cloud.sap"
+  },
+  {
+    "datacenter": "DC40",
+    "environment": "Sales",
+    "old_uri": "hcm40sales.sapsf.com",
+    "csd_uri": "hcm-us40-sales.hr.cloud.sap"
+  },
+  {
+    "datacenter": "DC41",
+    "environment": "Production",
+    "old_uri": "hcm41.sapsf.com",
+    "csd_uri": "hcm-us30.hr.cloud.sap"
+  },
+  {
+    "datacenter": "DC41",
+    "environment": "Preview",
+    "old_uri": "hcm41preview.sapsf.com",
+    "csd_uri": "hcm-us30-preview.hr.cloud.sap"
+  },
+  {
+    "datacenter": "DC47",
+    "environment": "Production",
+    "old_uri": "hcm47.sapsf.com",
+    "csd_uri": "hcm-ca20.hr.cloud.sap"
+  },
+  {
+    "datacenter": "DC47",
+    "environment": "Preview",
+    "old_uri": "hcm47preview.sapsf.com",
+    "csd_uri": "hcm-ca20-preview.hr.cloud.sap"
+  },
+  {
+    "datacenter": "DC50",
+    "environment": "Production",
+    "old_uri": "hcm50.sapsf.com",
+    "csd_uri": "hcm-jp10.hr.cloud.sap"
+  },
+  {
+    "datacenter": "DC50",
+    "environment": "Preview",
+    "old_uri": "hcm-jp10-preview.hr.cloud.sap",
+    "csd_uri": "hcm-jp10-preview.hr.cloud.sap"
+  },
+  {
+    "datacenter": "DC52",
+    "environment": "Production",
+    "old_uri": "hcm44.sapsf.com",
+    "csd_uri": "hcm-ap20.hr.cloud.sap"
+  },
+  {
+    "datacenter": "DC52",
+    "environment": "Preview",
+    "old_uri": "hcm44preview.sapsf.com",
+    "csd_uri": "hcm-ap20-preview.hr.cloud.sap"
+  },
+  {
+    "datacenter": "DC55",
+    "environment": "Production",
+    "old_uri": "hcm55.sapsf.eu",
+    "csd_uri": "hcm-eu30.hr.cloud.sap"
+  },
+  {
+    "datacenter": "DC55",
+    "environment": "Preview",
+    "old_uri": "hcm55preview.sapsf.eu",
+    "csd_uri": "hcm-eu30-preview.hr.cloud.sap"
+  },
+  {
+    "datacenter": "DC57",
+    "environment": "Production",
+    "old_uri": "performancemanager.successfactors.eu",
+    "csd_uri": "hcm-eu10.hr.cloud.sap"
+  },
+  {
+    "datacenter": "DC57",
+    "environment": "Preview",
+    "old_uri": "hcm2preview.sapsf.eu",
+    "csd_uri": "hcm-eu10-preview.hr.cloud.sap"
+  },
+  {
+    "datacenter": "DC57",
+    "environment": "Sales",
+    "old_uri": "salesdemo.successfactors.eu",
+    "csd_uri": "hcm-eu10-preview.hr.cloud.sap"
+  },
+  {
+    "datacenter": "DC60",
+    "environment": "Production",
+    "old_uri": "hcm17.sapsf.com",
+    "csd_uri": "hcm-ca10.hr.cloud.sap"
+  },
+  {
+    "datacenter": "DC60",
+    "environment": "Preview",
+    "old_uri": "hcm17preview.sapsf.com",
+    "csd_uri": "hcm-ca10-preview.hr.cloud.sap"
+  },
+  {
+    "datacenter": "DC62",
+    "environment": "Production",
+    "old_uri": "hcm19.sapsf.com",
+    "csd_uri": "hcm-br10.hr.cloud.sap"
+  },
+  {
+    "datacenter": "DC62",
+    "environment": "Preview",
+    "old_uri": "hcm19preview.sapsf.com",
+    "csd_uri": "hcm-br10-preview.hr.cloud.sap"
+  },
+  {
+    "datacenter": "DC66",
+    "environment": "Production",
+    "old_uri": "performancemanager10.successfactors.com",
+    "csd_uri": "hcm-ap10.hr.cloud.sap"
+  },
+  {
+    "datacenter": "DC66",
+    "environment": "Preview",
+    "old_uri": "hcm10preview.sapsf.com",
+    "csd_uri": "hcm-ap10-preview.hr.cloud.sap"
+  },
+  {
+    "datacenter": "DC68",
+    "environment": "Production",
+    "old_uri": "performancemanager4.successfactors.com",
+    "csd_uri": "hcm-us20.hr.cloud.sap",
+    "sales_uri": "hcm-us20-sales.hr.cloud.sap"
+  },
+  {
+    "datacenter": "DC68",
+    "environment": "Preview",
+    "old_uri": "hcm4preview.sapsf.com",
+    "csd_uri": "hcm-us20-preview.hr.cloud.sap"
+  },
+  {
+    "datacenter": "DC68",
+    "environment": "Sales",
+    "old_uri": "hcm68sales.successfactors.com",
+    "csd_uri": "hcm-us20-sales.hr.cloud.sap"
+  },
+  {
+    "datacenter": "DC70",
+    "environment": "Production",
+    "old_uri": "performancemanager8.successfactors.com",
+    "csd_uri": "hcm-us10.hr.cloud.sap"
+  },
+  {
+    "datacenter": "DC70",
+    "environment": "Preview",
+    "old_uri": "hcm8preview.sapsf.com",
+    "csd_uri": "hcm-us10-preview.hr.cloud.sap",
+    "sales_uri": "hcm-us10-sales.hr.cloud.sap"
+  },
+  {
+    "datacenter": "DC70",
+    "environment": "Sales",
+    "old_uri": "pmsalesdemo8.successfactors.com",
+    "csd_uri": "hcm-us10-sales.hr.cloud.sap"
+  },
+  {
+    "datacenter": "DC74",
+    "environment": "Production",
+    "old_uri": "hcm74.sapsf.eu",
+    "csd_uri": "hcm-eu40.hr.cloud.sap"
+  },
+  {
+    "datacenter": "DC74",
+    "environment": "Preview",
+    "old_uri": "hcm74preview.sapsf.eu",
+    "csd_uri": "hcm-eu40-preview.hr.cloud.sap"
+  }
+]

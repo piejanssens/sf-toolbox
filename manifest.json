@@ -1,0 +1,36 @@
+{
+  "name": "SuccessFactors Toolbox",
+  "description": "SuccessFactors Utilities for SAP professionals",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "view.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": ["activeTab, scripting, tabs"],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.hr.cloud.sap/*",
+        "https://*.sapsf.com/*",
+        "https://*.sapsf.cn/*",
+        "https://*.sapcloud.cn/*",
+        "https://*.successfactors.eu/*",
+        "https://*.sapsf.eu/*",
+        "https://*.successfactors.com/*"
+      ],
+      "css": ["styles.css"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["dc.json", "injected.js"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "homepage_url": "https://github.com"
+}
