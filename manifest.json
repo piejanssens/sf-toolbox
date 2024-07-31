@@ -1,6 +1,6 @@
 {
   "name": "SuccessFactors Toolbox",
-  "description": "SuccessFactors Utilities for SAP professionals. 'This extension's icon was downloaded from Flaticon.com.",
+  "description": "SuccessFactors Utilities for SAP professionals",
   "version": "1.0",
   "manifest_version": 3,
   "action": {
