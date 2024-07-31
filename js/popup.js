@@ -39,16 +39,19 @@
     const dc = resultCsdUrl ? resultCsdUrl : resultOldUrl
 
     updateField('hostname', hostname)
-    updateField('environment', dc.environment)
-    updateField('datacenter', dc.datacenter)
+    updateField('environment', dc?.environment)
+    updateField(
+      'datacenter',
+      dc.datacenter ? dc.datacenter : 'Missing - Please report'
+    )
     updateField('companyID', pageHeaderData.companyId)
     updateField('fullName', pageHeaderData.userInfo?.fullName)
     updateField('userID', pageHeaderData.userInfo?.id)
     updateField('personID', pageHeaderData.userInfo?.personId)
     updateField('assignmentUUID', pageHeaderData.userInfo?.assignmentUUID)
     updateField('proxyID', pageHeaderData.userInfo?.proxyId)
-    updateField('api', dc.api_hostname)
-    updateField('region', dc.region)
+    updateField('api', dc?.api_hostname)
+    updateField('region', dc?.region)
 
     document.getElementById('country').innerText = country2flag(dc.country)
 
