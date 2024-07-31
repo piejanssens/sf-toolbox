@@ -213,7 +213,7 @@
     "datacenter": "DC57",
     "environment": "Sales",
     "old_hostname": "salesdemo.successfactors.eu",
-    "csd_hostname": "hcm-eu10-preview.hr.cloud.sap",
+    "csd_hostname": "hcm-eu10-sales.hr.cloud.sap",
     "api_hostname": "apisalesdemo2.successfactors.eu",
     "country": "NL",
     "platform": "Google Cloud Platform",
