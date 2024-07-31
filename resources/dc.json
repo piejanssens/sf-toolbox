@@ -1,0 +1,384 @@
+[
+  {
+    "datacenter": "DC22",
+    "environment": "Production",
+    "old_hostname": "hcm22.sapsf.com",
+    "csd_hostname": "hcm-ae10.hr.cloud.sap",
+    "api_hostname": "api22.sapsf.com",
+    "country": "AE",
+    "platform": "SAP Cloud Infrastructure",
+    "region": "Dubai, UAE"
+  },
+  {
+    "datacenter": "DC22",
+    "environment": "Preview",
+    "old_hostname": "hcm22preview.sapsf.com",
+    "csd_hostname": "hcm-ae10-preview.hr.cloud.sap",
+    "api_hostname": "api22preview.sapsf.com",
+    "country": "AE",
+    "platform": "SAP Cloud Infrastructure",
+    "region": "Dubai, UAE"
+  },
+  {
+    "datacenter": "DC23",
+    "environment": "Production",
+    "old_hostname": "hcm23.sapsf.com",
+    "csd_hostname": "hcm-sa10.hr.cloud.sap",
+    "api_hostname": "api23.sapsf.com",
+    "country": "SA",
+    "platform": "SAP Cloud Infrastructure",
+    "region": "Riyadh, Saudi Arabia"
+  },
+  {
+    "datacenter": "DC23",
+    "environment": "Preview",
+    "old_hostname": "hcm23preview.sapsf.com",
+    "csd_hostname": "hcm-sa10-preview.hr.cloud.sap",
+    "api_hostname": "api23preview.sapsf.com",
+    "country": "SA",
+    "platform": "SAP Cloud Infrastructure",
+    "region": "Riyadh, Saudi Arabia"
+  },
+  {
+    "datacenter": "DC30",
+    "environment": "Production",
+    "old_hostname": "performancemanager15.sapsf.cn",
+    "csd_hostname": "hcm-cn10.sapcloud.cn",
+    "api_hostname": "api15.sapsf.cn",
+    "country": "CN",
+    "platform": "SAP Cloud Infrastructure",
+    "region": "Shanghai, China"
+  },
+  {
+    "datacenter": "DC30",
+    "environment": "Preview",
+    "old_hostname": "hcm15preview.sapsf.cn",
+    "csd_hostname": "hcm-cn10-preview.sapcloud.cn",
+    "api_hostname": "api15preview.sapsf.cn",
+    "country": "CN",
+    "platform": "SAP Cloud Infrastructure",
+    "region": "Shanghai, China"
+  },
+  {
+    "datacenter": "DC33",
+    "environment": "Production",
+    "old_hostname": "performancemanager5.successfactors.eu",
+    "csd_hostname": "hcm-eu20.hr.cloud.sap",
+    "api_hostname": "api012.successfactors.eu",
+    "country": "DE",
+    "platform": "SAP Cloud Infrastructure",
+    "region": "Rot, Germany"
+  },
+  {
+    "datacenter": "DC33",
+    "environment": "Preview",
+    "old_hostname": "hcm12preview.sapsf.eu",
+    "csd_hostname": "hcm-eu20-preview.hr.cloud.sap",
+    "api_hostname": "api12preview.sapsf.eu",
+    "country": "DE",
+    "platform": "SAP Cloud Infrastructure",
+    "region": "Rot, Germany"
+  },
+  {
+    "datacenter": "DC40",
+    "environment": "Sales",
+    "old_hostname": "hcm40sales.sapsf.com",
+    "csd_hostname": "hcm-us40-sales.hr.cloud.sap",
+    "api_hostname": "api40sales.sapsf.com",
+    "country": "US",
+    "platform": "Microsoft Azure",
+    "region": "US East (Virginia)"
+  },
+  {
+    "datacenter": "DC41",
+    "environment": "Production",
+    "old_hostname": "hcm41.sapsf.com",
+    "csd_hostname": "hcm-us30.hr.cloud.sap",
+    "api_hostname": "api41.sapsf.com",
+    "country": "US",
+    "platform": "Microsoft Azure",
+    "region": "US East (Virginia)"
+  },
+  {
+    "datacenter": "DC41",
+    "environment": "Preview",
+    "old_hostname": "hcm41preview.sapsf.com",
+    "csd_hostname": "hcm-us30-preview.hr.cloud.sap",
+    "api_hostname": "api41preview.sapsf.com",
+    "country": "US",
+    "platform": "Microsoft Azure",
+    "region": "US East (Virginia)"
+  },
+  {
+    "datacenter": "DC47",
+    "environment": "Production",
+    "old_hostname": "hcm47.sapsf.com",
+    "csd_hostname": "hcm-ca20.hr.cloud.sap",
+    "api_hostname": "api47.sapsf.com",
+    "country": "CA",
+    "platform": "Microsoft Azure",
+    "region": "Canada Central (Toronto)"
+  },
+  {
+    "datacenter": "DC47",
+    "environment": "Preview",
+    "old_hostname": "hcm47preview.sapsf.com",
+    "csd_hostname": "hcm-ca20-preview.hr.cloud.sap",
+    "api_hostname": "api47preview.sapsf.com",
+    "country": "CA",
+    "platform": "Microsoft Azure",
+    "region": "Canada Central (Toronto)"
+  },
+  {
+    "datacenter": "DC50",
+    "environment": "Production",
+    "old_hostname": "hcm50.sapsf.com",
+    "csd_hostname": "hcm-jp10.hr.cloud.sap",
+    "api_hostname": "api50.sapsf.com",
+    "country": "JP",
+    "platform": "Google Cloud Platform",
+    "region": "asia-northeast1 (Tokyo)"
+  },
+  {
+    "datacenter": "DC50",
+    "environment": "Preview",
+    "old_hostname": "hcm-jp10-preview.hr.cloud.sap",
+    "csd_hostname": "hcm-jp10-preview.hr.cloud.sap",
+    "api_hostname": "api50preview.sapsf.com",
+    "country": "JP",
+    "platform": "Google Cloud Platform",
+    "region": "asia-northeast1 (Tokyo)"
+  },
+  {
+    "datacenter": "DC52",
+    "environment": "Production",
+    "old_hostname": "hcm44.sapsf.com",
+    "csd_hostname": "hcm-ap20.hr.cloud.sap",
+    "api_hostname": "api44.sapsf.com",
+    "country": "SG",
+    "platform": "Google Cloud Platform",
+    "region": "asia-southeast1 (Singapore)"
+  },
+  {
+    "datacenter": "DC52",
+    "environment": "Preview",
+    "old_hostname": "hcm44preview.sapsf.com",
+    "csd_hostname": "hcm-ap20-preview.hr.cloud.sap",
+    "api_hostname": "api44preview.sapsf.com",
+    "country": "SG",
+    "platform": "Google Cloud Platform",
+    "region": "asia-southeast1 (Singapore)"
+  },
+  {
+    "datacenter": "DC55",
+    "environment": "Production",
+    "old_hostname": "hcm55.sapsf.eu",
+    "csd_hostname": "hcm-eu30.hr.cloud.sap",
+    "api_hostname": "api55.sapsf.eu",
+    "country": "DE",
+    "platform": "Google Cloud Platform",
+    "region": "europe-west3 (Frankfurt)"
+  },
+  {
+    "datacenter": "DC55",
+    "environment": "Preview",
+    "old_hostname": "hcm55preview.sapsf.eu",
+    "csd_hostname": "hcm-eu30-preview.hr.cloud.sap",
+    "api_hostname": "api55preview.sapsf.eu",
+    "country": "DE",
+    "platform": "Google Cloud Platform",
+    "region": "europe-west3 (Frankfurt)"
+  },
+  {
+    "datacenter": "DC57",
+    "environment": "Production",
+    "old_hostname": "performancemanager.successfactors.eu",
+    "csd_hostname": "hcm-eu10.hr.cloud.sap",
+    "api_hostname": "api2.successfactors.eu",
+    "country": "NL",
+    "platform": "Google Cloud Platform",
+    "region": "europe-west4 (Eemshaven)"
+  },
+  {
+    "datacenter": "DC57",
+    "environment": "Preview",
+    "old_hostname": "hcm2preview.sapsf.eu",
+    "csd_hostname": "hcm-eu10-preview.hr.cloud.sap",
+    "api_hostname": "api2preview.sapsf.eu",
+    "country": "NL",
+    "platform": "Google Cloud Platform",
+    "region": "europe-west4 (Eemshaven)"
+  },
+  {
+    "datacenter": "DC57",
+    "environment": "Sales",
+    "old_hostname": "salesdemo.successfactors.eu",
+    "csd_hostname": "hcm-eu10-preview.hr.cloud.sap",
+    "api_hostname": "apisalesdemo2.successfactors.eu",
+    "country": "NL",
+    "platform": "Google Cloud Platform",
+    "region": "europe-west4 (Eemshaven)"
+  },
+  {
+    "datacenter": "DC60",
+    "environment": "Production",
+    "old_hostname": "hcm17.sapsf.com",
+    "csd_hostname": "hcm-ca10.hr.cloud.sap",
+    "api_hostname": "api17.sapsf.com",
+    "country": "CA",
+    "platform": "Microsoft Azure",
+    "region": "Canada Central (Toronto)"
+  },
+  {
+    "datacenter": "DC60",
+    "environment": "Preview",
+    "old_hostname": "hcm17preview.sapsf.com",
+    "csd_hostname": "hcm-ca10-preview.hr.cloud.sap",
+    "api_hostname": "api17preview.sapsf.com",
+    "country": "CA",
+    "platform": "Microsoft Azure",
+    "region": "Canada Central (Toronto)"
+  },
+  {
+    "datacenter": "DC62",
+    "environment": "Production",
+    "old_hostname": "hcm19.sapsf.com",
+    "csd_hostname": "hcm-br10.hr.cloud.sap",
+    "api_hostname": "api19.sapsf.com",
+    "country": "BR",
+    "platform": "Microsoft Azure",
+    "region": "Brazil South (Sao Paulo)"
+  },
+  {
+    "datacenter": "DC62",
+    "environment": "Preview",
+    "old_hostname": "hcm19preview.sapsf.com",
+    "csd_hostname": "hcm-br10-preview.hr.cloud.sap",
+    "api_hostname": "api19preview.sapsf.com",
+    "country": "BR",
+    "platform": "Microsoft Azure",
+    "region": "Brazil South (Sao Paulo)"
+  },
+  {
+    "datacenter": "DC66",
+    "environment": "Production",
+    "old_hostname": "performancemanager10.successfactors.com",
+    "csd_hostname": "hcm-ap10.hr.cloud.sap",
+    "api_hostname": "api10.successfactors.com",
+    "country": "AU",
+    "platform": "Microsoft Azure",
+    "region": "Australia Central (Canberra)"
+  },
+  {
+    "datacenter": "DC66",
+    "environment": "Preview",
+    "old_hostname": "hcm10preview.sapsf.com",
+    "csd_hostname": "hcm-ap10-preview.hr.cloud.sap",
+    "api_hostname": "api10preview.sapsf.com",
+    "country": "AU",
+    "platform": "Microsoft Azure",
+    "region": "Australia Central (Canberra)"
+  },
+  {
+    "datacenter": "DC68",
+    "environment": "Production",
+    "old_hostname": "performancemanager4.successfactors.com",
+    "csd_hostname": "hcm-us20.hr.cloud.sap",
+    "sales_hostname": "hcm-us20-sales.hr.cloud.sap",
+    "api_hostname": "api4.successfactors.com",
+    "country": "US",
+    "platform": "Microsoft Azure",
+    "region": "US East 2 (Virginia)"
+  },
+  {
+    "datacenter": "DC68",
+    "environment": "Preview",
+    "old_hostname": "hcm4preview.sapsf.com",
+    "csd_hostname": "hcm-us20-preview.hr.cloud.sap",
+    "api_hostname": "api4preview.sapsf.com",
+    "country": "US",
+    "platform": "Microsoft Azure",
+    "region": "US East 2 (Virginia)"
+  },
+  {
+    "datacenter": "DC68",
+    "environment": "Sales",
+    "old_hostname": "hcm68sales.successfactors.com",
+    "csd_hostname": "hcm-us20-sales.hr.cloud.sap",
+    "api_hostname": "api68sales.successfactors.com",
+    "country": "US",
+    "platform": "Microsoft Azure",
+    "region": "US East 2 (Virginia)"
+  },
+  {
+    "datacenter": "DC70",
+    "environment": "Production",
+    "old_hostname": "performancemanager8.successfactors.com",
+    "csd_hostname": "hcm-us10.hr.cloud.sap",
+    "api_hostname": "api8.successfactors.com",
+    "country": "US",
+    "platform": "Microsoft Azure",
+    "region": "US East (Virginia)"
+  },
+  {
+    "datacenter": "DC70",
+    "environment": "Preview",
+    "old_hostname": "hcm8preview.sapsf.com",
+    "csd_hostname": "hcm-us10-preview.hr.cloud.sap",
+    "sales_hostname": "hcm-us10-sales.hr.cloud.sap",
+    "api_hostname": "api8preview.sapsf.com",
+    "country": "US",
+    "platform": "Microsoft Azure",
+    "region": "US East (Virginia)"
+  },
+  {
+    "datacenter": "DC70",
+    "environment": "Sales",
+    "old_hostname": "pmsalesdemo8.successfactors.com",
+    "csd_hostname": "hcm-us10-sales.hr.cloud.sap",
+    "api_hostname": "apisalesdemo8.successfactors.com",
+    "country": "US",
+    "platform": "Microsoft Azure",
+    "region": "US East (Virginia)"
+  },
+  {
+    "datacenter": "DC74",
+    "environment": "Production",
+    "old_hostname": "hcm74.sapsf.eu",
+    "csd_hostname": "hcm-eu40.hr.cloud.sap",
+    "api_hostname": "api74.sapsf.eu",
+    "country": "CH",
+    "platform": "Microsoft Azure",
+    "region": "Switzerland North (Zurich)"
+  },
+  {
+    "datacenter": "DC74",
+    "environment": "Preview",
+    "old_hostname": "hcm74preview.sapsf.eu",
+    "csd_hostname": "hcm-eu40-preview.hr.cloud.sap",
+    "api_hostname": "api74preview.sapsf.eu",
+    "country": "CH",
+    "platform": "Microsoft Azure",
+    "region": "Switzerland North (Zurich)"
+  },
+  {
+    "datacenter": "DC80",
+    "environment": "Production",
+    "old_hostname": "",
+    "csd_hostname": "hcm-in10.hr.cloud.sap",
+    "api_hostname": "api-in10.hr.cloud.sap",
+    "country": "IN",
+    "platform": "Google Cloud Platform",
+    "region": "asia-south1 (Mumbai)"
+  },
+  {
+    "datacenter": "DC80",
+    "environment": "Preview",
+    "old_hostname": "",
+    "csd_hostname": "hcm-in10-preview.hr.cloud.sap",
+    "api_hostname": "api-in10-preview.hr.cloud.sap",
+    "country": "IN",
+    "platform": "Google Cloud Platform",
+    "region": "asia-south1 (Mumbai)"
+  }
+]

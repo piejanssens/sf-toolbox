@@ -1,0 +1,68 @@
+body.popup {
+  width: 550px;
+  margin: 1em;
+}
+
+.btn {
+  width: 100%;
+  background-color: #1e90ff; /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 5px 5px; /* Some padding */
+  font-size: 12px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+.emoji {
+  font-size: 1.3em;
+  vertical-align: middle;
+}
+
+#footer {
+  margin-top: 2em;
+  text-align: center;
+}
+
+#notSF {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+
+#sfInfo {
+  display: flex;
+}
+
+.flex-child {
+  flex: 1;
+}
+
+.flex-child:first-child {
+  margin-right: 1em;
+}
+
+[hidden] {
+  display: none !important;
+}
