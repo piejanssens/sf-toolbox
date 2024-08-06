@@ -7,6 +7,7 @@ This is a browser extension (Chrome, Edge, and Chromium-like) with SuccessFactor
 - Show detailed instance info
 - Show current user info
 - Indicator when user proxy is active
+- Access provisioning
 
 ## Install
 

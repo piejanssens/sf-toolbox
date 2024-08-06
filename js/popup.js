@@ -77,6 +77,15 @@
         }, 1000)
       })
     }
+
+    document
+      .getElementById('provisioningButton')
+      .addEventListener('click', () => {
+        chrome.windows.create({
+          url: `https://${dc.old_hostname ? dc.old_hostname : dc.csd_hostname}/provisioning_login`,
+          incognito: true,
+        })
+      })
   })
 })()
 
