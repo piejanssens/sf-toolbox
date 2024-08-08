@@ -8,6 +8,8 @@ This is a browser extension (Chrome, Edge, and Chromium-like) with SuccessFactor
 - Show current user info
 - Indicator when user proxy is active
 - Access provisioning
+- Copy all values
+- Quick copy all instance info
 
 ## Install
 
