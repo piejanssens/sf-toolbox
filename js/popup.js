@@ -87,6 +87,21 @@
           incognito: true,
         })
       })
+
+    document
+      .getElementById('instanceInfoButton')
+      .addEventListener('click', () => {
+        const text = `Instance Info:
+- Environment:  ${dc?.environment}
+- Company ID:   ${pageHeaderData.companyId}
+- Datacenter:   ${dc?.datacenter}
+- Provider:     ${dc?.platform}
+- Region:       ${dc?.region}
+- Hostname:     ${hostname}
+- API:          ${dc?.api_hostname}
+        `
+        navigator.clipboard.writeText(text)
+      })
   })
 })()
 
