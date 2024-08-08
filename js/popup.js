@@ -52,6 +52,7 @@
     updateField('proxyID', pageHeaderData.userInfo?.proxyId)
     updateField('api', dc?.api_hostname)
     updateField('region', dc?.region)
+    updateField('provider', dc?.platform)
 
     document.getElementById('country').innerText = country2flag(dc.country)
 
