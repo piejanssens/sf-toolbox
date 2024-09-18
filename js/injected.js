@@ -1,9 +1,8 @@
-console.log(window.pageHeaderJsonData)
-let j = 0
-const i = setInterval(() => {
-  j++
+let pageHeaderSeekerIteration = 0
+const pageHeaderSeekerInterval = setInterval(() => {
+  pageHeaderSeekerIteration++
   if (window.pageHeaderJsonData) {
-    clearInterval(i)
+    clearInterval(pageHeaderSeekerInterval)
     window.postMessage(
       {
         type: 'sf-header-json-data',
@@ -12,10 +11,10 @@ const i = setInterval(() => {
       '*'
     )
   }
-  if (j == 100) {
+  if (pageHeaderSeekerIteration == 100) {
     console.log(
       'No window.pageHeaderJsonData found after 10 seconds - aborting.'
     )
-    clearInterval(i)
+    clearInterval(pageHeaderSeekerInterval)
   }
 }, 100)
