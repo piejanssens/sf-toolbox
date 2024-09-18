@@ -32,8 +32,8 @@
 
     const fileResponse = await fetch(chrome.runtime.getURL('resources/dc.json'))
     const datacenters = await fileResponse.json()
-    const hostname = contentData.hostname
     const pageHeaderData = contentData.pageHeaderData
+    const hostname = pageHeaderData.baseUrl.replace('https://', '')
     const resultCsdUrl = datacenters.find((x) => x.csd_hostname == hostname)
     const resultOldUrl = datacenters.find((x) => x.old_hostname == hostname)
     const dc = resultCsdUrl ? resultCsdUrl : resultOldUrl
