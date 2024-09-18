@@ -8,90 +8,92 @@
   </head>
   <body class="popup">
     <div hidden id="sfInfo">
-      <div class="flex-child">
-        <h3>Instance Info <span id="country" class="emoji"></span></h3>
-        <label for="environment">Environment:</label><br />
-        <button class="btn">
-          <div id="environment"></div>
-          <i class="fa fa-copy"></i>
+      <div id="sfProperties">
+        <div class="flex-child">
+          <h3>Instance Info <span id="country" class="emoji"></span></h3>
+          <label for="environment">Environment:</label><br />
+          <button class="btn">
+            <div id="environment"></div>
+            <i class="fa fa-copy"></i>
+          </button>
+          <br />
+          <label for="companyID">Company ID:</label><br />
+          <button class="btn">
+            <div id="companyID"></div>
+            <i class="fa fa-copy"></i>
+          </button>
+          <br />
+          <label for="datacenter">Datacenter:</label><br />
+          <button class="btn">
+            <div id="datacenter"></div>
+            <i class="fa fa-copy"></i>
+          </button>
+          <br />
+          <label for="provider">Provider:</label><br />
+          <button class="btn">
+            <div id="provider"></div>
+            <i class="fa fa-copy"></i>
+          </button>
+          <br />
+          <label for="region">Region:</label><br />
+          <button class="btn">
+            <div id="region"></div>
+            <i class="fa fa-copy"></i>
+          </button>
+          <br />
+          <label for="hostname">Hostname:</label><br />
+          <button class="btn">
+            <div id="hostname"></div>
+            <i class="fa fa-copy"></i>
+          </button>
+          <br />
+          <label for="api">API:</label><br />
+          <button class="btn">
+            <div id="api"></div>
+            <i class="fa fa-copy"></i>
+          </button>
+        </div>
+        <div class="flex-child">
+          <h3>User Info</h3>
+          <label for="fullName">Full name:</label><br />
+          <button class="btn">
+            <div id="fullName"></div>
+            <i class="fa fa-copy"></i>
+          </button>
+          <br />
+          <label for="userID">User ID:</label><br />
+          <button class="btn">
+            <div id="userID"></div>
+            <i class="fa fa-copy"></i>
+          </button>
+          <br />
+          <label for="personID">Person ID (ext):</label><br />
+          <button class="btn">
+            <div id="personID"></div>
+            <i class="fa fa-copy"></i>
+          </button>
+          <br />
+          <label for="assignmentUUID">Assignment UUID:</label><br />
+          <button class="btn">
+            <div id="assignmentUUID"></div>
+            <i class="fa fa-copy"></i>
+          </button>
+          <br />
+          <label for="proxyID">Proxy user ID:</label><br />
+          <button class="btn">
+            <div id="proxyID"></div>
+            <i class="fa fa-copy"></i>
+          </button>
+        </div>
+      </div>
+      <div id="actions">
+        <button id="instanceInfoButton" class="action">
+          <i class="fa fa-copy"></i> Copy Instance Info
         </button>
-        <br />
-        <label for="companyID">Company ID:</label><br />
-        <button class="btn">
-          <div id="companyID"></div>
-          <i class="fa fa-copy"></i>
-        </button>
-        <br />
-        <label for="datacenter">Datacenter:</label><br />
-        <button class="btn">
-          <div id="datacenter"></div>
-          <i class="fa fa-copy"></i>
-        </button>
-        <br />
-        <label for="provider">Provider:</label><br />
-        <button class="btn">
-          <div id="provider"></div>
-          <i class="fa fa-copy"></i>
-        </button>
-        <br />
-        <label for="region">Region:</label><br />
-        <button class="btn">
-          <div id="region"></div>
-          <i class="fa fa-copy"></i>
-        </button>
-        <br />
-        <label for="hostname">Hostname:</label><br />
-        <button class="btn">
-          <div id="hostname"></div>
-          <i class="fa fa-copy"></i>
-        </button>
-        <br />
-        <label for="api">API:</label><br />
-        <button class="btn">
-          <div id="api"></div>
-          <i class="fa fa-copy"></i>
+        <button id="provisioningButton" class="action">
+          <i class="fa fa-user-secret"></i> Access Provisioning
         </button>
       </div>
-      <div class="flex-child">
-        <h3>User Info</h3>
-        <label for="fullName">Full name:</label><br />
-        <button class="btn">
-          <div id="fullName"></div>
-          <i class="fa fa-copy"></i>
-        </button>
-        <br />
-        <label for="userID">User ID:</label><br />
-        <button class="btn">
-          <div id="userID"></div>
-          <i class="fa fa-copy"></i>
-        </button>
-        <br />
-        <label for="personID">Person ID (ext):</label><br />
-        <button class="btn">
-          <div id="personID"></div>
-          <i class="fa fa-copy"></i>
-        </button>
-        <br />
-        <label for="assignmentUUID">Assignment UUID:</label><br />
-        <button class="btn">
-          <div id="assignmentUUID"></div>
-          <i class="fa fa-copy"></i>
-        </button>
-        <br />
-        <label for="proxyID">Proxy user ID:</label><br />
-        <button class="btn">
-          <div id="proxyID"></div>
-          <i class="fa fa-copy"></i>
-        </button>
-      </div>
-    </div>
-    <div id="actions">
-      <button id="instanceInfoButton" class="action">
-        <i class="fa fa-copy"></i> Copy Instance Info
-      </button>
-      <button id="provisioningButton" class="action">
-        <i class="fa fa-user-secret"></i> Access Provisioning
-      </button>
     </div>
     <div hidden id="notSF">
       This does not appear to be SuccessFactors
